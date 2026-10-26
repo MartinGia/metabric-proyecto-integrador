@@ -1,0 +1,17 @@
+{
+ "regression": {
+  "model": "LinearRegression(proliferation_score)",
+  "RMSE_cv": 0.9951295095546705,
+  "R2_cv": 0.15259689256454587,
+  "RMSE_val": 1.0253020597773863,
+  "R2_val": 0.12058224640058457
+ },
+ "classification": {
+  "model": "LogisticRegression(all features)",
+  "imbalance": "class_weight = balanced",
+  "F1_macro_cv": 0.6980045125880587,
+  "F1_macro_val": 0.755149101439827,
+  "AUC_cv": 0.9429192966143438,
+  "AUC_val": 0.9592983535630092
+ }
+}

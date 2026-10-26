@@ -1,0 +1,7 @@
+﻿objetivo,criterio,resultado,cumple
+1. Regresión,"R² ≥ 0,20 en prueba",R² = 0.260,Sí
+1. Regresión,RMSE menor que el modelo base (prueba),0.902 vs. 0.949,Sí
+2. Clasificación,"F1 macro ≥ 0,75 en prueba",F1 = 0.792,Sí
+2. Clasificación,"Superar al modelo base en CV (0,698)",F1 CV = 0.739,Sí
+2. Clasificación,"Brecha train − CV < 0,15",brecha = 0.123,Sí
+3. Clustering,K-Means (codo y silueta) + segundo algoritmo + perfiles,K = 4; silueta prueba = 0.150; Ward y DBSCAN evaluados,Sí
