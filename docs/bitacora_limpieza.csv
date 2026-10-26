@@ -1,0 +1,13 @@
+﻿accion,registros_afectados,justificacion
+Corregir 'Positve' por 'Positive',1445,Error tipográfico en la fuente.
+Excluir el sarcoma de mama,1,No es un carcinoma; caso único fuera de la población.
+HER2 por SNP6 'UNDEF' a faltante,4,"Es un valor indeterminado, no una categoría."
+Estadio 0 a faltante,4,Estadio in situ incoherente con carcinomas invasivos de 11 a 65 mm.
+mutation_count faltante a 0,45,MNAR estructural: el mínimo observado es 1 y todos los faltantes tienen 0 mutaciones en el panel.
+Deducir el grado desde el NPI,18,"NPI = grado + estadio ganglionar + 0,002 x tamaño; el grado se despeja sin estimar nada."
+Marcar NPI no válido (npi_valid = 0),57,El NPI se calculó sin el grado (residuo 0) o no es coherente con sus componentes.
+Codificar cellularity como ordinal (1 a 3),1849,"Orden natural Low < Moderate < High; mapeo fijo, sin aprendizaje."
+Mutaciones a indicadores 0/1,1903,173 columnas; el cambio de proteína no se usa en los modelos.
+Eliminar oncotree_code,0,Redundante: mapeo uno a uno con cancer_type_detailed.
+Eliminar cancer_type,0,Constante tras excluir el único sarcoma.
+Eliminar er_status_measured_by_ihc,0,Redundante con er_status (completa); 118 discrepancias entre métodos.

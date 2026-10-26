@@ -1,0 +1,15 @@
+# Versiones exactas con las que se ejecutaron los notebooks 01 a 04 y 06 (también probados en Google Colab con pandas 2.2).
+# Python 3.11 o superior. El notebook 05 se ejecutó con torch 2.5.1 (CPU), Python 3.10 y scikit-learn 1.7.2.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+xgboost==3.4.1
+torch>=2.5
+shap==0.54.1
+jupyter
+# Se agregarán en fases posteriores (con versión exacta):
+# streamlit, plotly

@@ -1,0 +1,9 @@
+# Dependencias mínimas del dashboard (Streamlit Community Cloud las instala desde aquí).
+# Usar Python 3.12 en la configuración avanzada del despliegue.
+streamlit==1.66.1
+plotly==7.1.0
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib
