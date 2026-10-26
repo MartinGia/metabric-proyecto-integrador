@@ -1,0 +1,14 @@
+# Sistema y entornos
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Material del curso (no se publica en el repositorio)
+docs/curso/
+
+# Archivos comprimidos de descarga
+*.zip
